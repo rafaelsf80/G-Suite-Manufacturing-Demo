@@ -1,0 +1,112 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.google.ManufacturingMD.itemdetails">
+
+    <TextView
+        android:id="@+id/title_DT"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/mainimage_DT"
+        android:layout_below="@id/title_DT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3pt"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="4pt"
+        />
+
+
+    <Button android:id="@+id/bt_manual_DT"
+        android:layout_below="@id/mainimage_DT"
+        android:layout_width="40pt"
+        android:layout_height="12pt"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="6pt"
+        android:text="Manual"
+        android:layout_marginLeft="4pt"
+        android:layout_marginBottom="4pt"
+        />
+
+    <Button android:id="@+id/bt_video_guide_DT"
+        android:layout_below="@id/mainimage_DT"
+        android:layout_toRightOf="@id/bt_manual_DT"
+        android:layout_width="53pt"
+        android:layout_height="12pt"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="6pt"
+        android:text="Video Guide"
+        android:layout_marginLeft="4pt"
+        android:layout_marginBottom="4pt"
+        />
+
+    <Button android:id="@+id/inventoryCount_DT"
+        android:layout_below="@id/mainimage_DT"
+        android:layout_toRightOf="@id/bt_video_guide_DT"
+        android:layout_width="wrap_content"
+        android:layout_height="12pt"
+        android:background="#ffdf6c31"
+        android:textColor="#000000"
+        android:textSize="6pt"
+        android:text="Stock Count"
+        android:layout_marginLeft="4pt"
+        android:layout_marginBottom="4pt"
+        android:paddingLeft="2pt"
+        android:paddingRight="2pt"
+        />
+
+    <TextView
+        android:id="@+id/tv_manufacturer_DT"
+        android:layout_below="@id/bt_manual_DT"
+        android:layout_marginTop="3pt"
+        android:textSize="10pt"
+        android:text="Manufacturer"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_model_DT"
+        android:layout_below="@id/tv_manufacturer_DT"
+        android:layout_marginTop="3pt"
+        android:textSize="10pt"
+        android:text="Car Model"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/itemPrice_DT"
+        android:layout_below="@id/tv_model_DT"
+        android:layout_marginTop="3pt"
+        android:textSize="10pt"
+        android:text="Price"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>
+
+    </ScrollView>
