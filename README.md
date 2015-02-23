@@ -32,7 +32,7 @@ The following libraries must be included for proper compilation and execution:
 
 ## Android release
 
-The apk can be downloaded from [here](https://drive.google.com/file/d/0B6IAELMrLfE5MUtaS09jc1JIMlE/view?usp=sharing).
+The apk can be downloaded from [here](https://drive.google.com/file/d/0B6IAELMrLfE5REUtMVoyYmJXRkU/view?usp=sharing).
 This apk uses Material Design concepts compiled with SDK target 21 (5.0) and tested on Nexus 5 with lollipop.
 IDE used is Eclipse Luna
 

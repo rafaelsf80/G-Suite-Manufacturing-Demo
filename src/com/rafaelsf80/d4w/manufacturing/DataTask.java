@@ -1,3 +1,7 @@
+/**
+ * Created by wilfrid on 9/23/14.
+ */
+
 package com.rafaelsf80.d4w.manufacturing;
 
 
@@ -34,7 +38,7 @@ public class DataTask extends AsyncTask<Void, Void, Void> {
         try {
             HttpClient hc = new DefaultHttpClient();
             // The script must be on gmail.com account to access anonimously
-            String 	URL = "https://script.google.com/macros/s/AKfycbwE8LmWDorql58mCmS198MHevOYFmuReL0UwHuUSeclEzKmr7h2/exec";
+            String 	URL = "https://script.google.com/macros/s/AKfycbys9MGX_Y2MwoJ5167Y39bTRNFOrQ_OwuLMH_rIRT8K7s1TTpiP/exec";
             HttpGet get = new HttpGet(URL);
             HttpResponse rp = hc.execute(get);
 

@@ -1,3 +1,7 @@
+/**
+ * Created by wilfrid on 9/23/14.
+ */
+
 package com.rafaelsf80.d4w.manufacturing;
 
 import java.util.ArrayList;
@@ -32,7 +36,7 @@ public class ConfigTask extends AsyncTask<Void, Void, Void> {
         try {
             HttpClient hc = new DefaultHttpClient();
             // The script must be on gmail.com account to access anonimously
-            String 	URL = "https://script.google.com/macros/s/AKfycbyBNdeapiL_3I6yl24ks0kBRYshqBG7WQdOeoUpQEl4qcQurzM/exec";
+            String 	URL = "https://script.google.com/macros/s/AKfycbx8wsNFxOO55tvLJeJQyUydPkd1qjPVBXVekcHgq5oG4gtw704/exec";
             HttpGet get = new HttpGet(URL);
             HttpResponse rp = hc.execute(get);
 

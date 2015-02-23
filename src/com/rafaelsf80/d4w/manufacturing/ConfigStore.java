@@ -1,3 +1,7 @@
+/**
+ * Created by wilfrid on 9/23/14.
+ */
+
 package com.rafaelsf80.d4w.manufacturing;
 
 import java.util.ArrayList;
