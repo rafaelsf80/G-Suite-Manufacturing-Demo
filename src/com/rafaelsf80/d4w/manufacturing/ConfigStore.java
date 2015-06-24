@@ -6,7 +6,7 @@ package com.rafaelsf80.d4w.manufacturing;
 
 import java.util.ArrayList;
 /**
- * Created by wilfrid on 11/25/14. pUp3EkaP
+ * Created by wilfrid on 11/25/14.
  */
 public class ConfigStore {
 
